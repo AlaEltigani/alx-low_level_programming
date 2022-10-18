@@ -15,8 +15,7 @@ int main(void)
 	while (*sh)
 
 	{
-
-	        putchar(*sh);
+		putchar(*sh);
 		sh++;
 
 	}
