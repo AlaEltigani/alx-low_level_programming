@@ -4,9 +4,9 @@
 
 /**
  * create_array - create an array of size with char c
- * @size: unsigned int type 
+ * @size: unsigned int type
  * @c: char type
- * Return: return pointer to array created 
+ * Return: return pointer to array created
  */
 
 char *create_array(unsigned int size, char c)
@@ -18,13 +18,13 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	s =malloc ((size) * sizeof(char));
-	if (s== NULL)
+	s = malloc((size) * sizeof(char));
+	if (s == NULL)
 	{
 		return (NULL);
 	}
 	i = 0;
-	whiel (i < size)
+	whiel(i < size)
 	{
 		s[i] = c;
 		i++;
